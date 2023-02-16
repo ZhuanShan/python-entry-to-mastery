@@ -42,4 +42,5 @@ for number in numbers:
         print("2nd")
     else:
         print(f"{number}" + "rd")
+#
 
