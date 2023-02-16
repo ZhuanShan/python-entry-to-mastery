@@ -31,7 +31,6 @@ for current_user in current_users:
     else:
         print("ok")
 
-
 # 5-11
 
 numbers = list(range(1,11))
@@ -42,5 +41,4 @@ for number in numbers:
         print("2nd")
     else:
         print(f"{number}" + "rd")
-#
 
