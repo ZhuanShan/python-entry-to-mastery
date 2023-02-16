@@ -19,3 +19,12 @@ print(like_numbers)
 
 # 6-3
 
+diction = {
+    'apple':'red',
+    'banana':'yellow',
+    'grape':'purple',
+}
+
+for sentence, introduction in diction.items():
+    print(sentence + ": " + introduction)
+    
