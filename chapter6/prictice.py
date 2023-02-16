@@ -13,3 +13,13 @@ for name in favorite_languages.keys():
         print("Hi " + name.title() + 
         ",I see is " + 
         favorite_languages[name].title() + "!")
+
+
+if 'erin' not in favorite_languages.keys():
+    print("Erin, please take our poll")
+
+for name in sorted(favorite_languages.keys()):
+    print(name.title()+", thank you")
+
+for language in set(favorite_languages.values()):
+    print(language.title())
