@@ -31,3 +31,28 @@ for num in range(2):
     pets.append(pet)
 for pet in pets:
     print(pet['master'] + " has a " +  pet['type'])
+
+
+# 6-11
+cities = {
+    'bj': {
+        'popu': 2200,
+        'country': 'china',
+        'fact': 'capital',
+        },
+
+    'ny':{
+        'popu': 2000,
+        'country': 'us',
+        'fact': 'rich',
+        },
+    'paris':{
+        'popu': 1000,
+        'country': 'fr',
+        'fact': 'roman',
+        }
+}
+
+for city, info in cities.items():
+    print("\ncity: " + city.upper())
+    print(info['popu'])
