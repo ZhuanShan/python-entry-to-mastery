@@ -22,4 +22,5 @@ print(unprinted_designs)
 
 import module_name
 
-hah 
+dayins = ['chifan', 'shuijiao', 'dadoudou']
+module_name.dayins(dayins)
