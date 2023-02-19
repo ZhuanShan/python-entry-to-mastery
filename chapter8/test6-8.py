@@ -53,6 +53,3 @@ while True:
 
     album = make_album(singer_name, songs_name, int(songs_number))
     print(album)
-
-
-
