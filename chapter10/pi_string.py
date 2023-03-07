@@ -7,5 +7,10 @@ pi_string = ''
 for line in lines:
     pi_string += line.strip()
 
+
+birthday = input("enter your birthday, in the form of mmddyy:")
+if birthday in pi_string:
+    print("your birthday appears in ")
+
 print(pi_string[:50]+ '...')
 print(len(pi_string))
